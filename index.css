@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("Silkscreen-Regular.ttf");
+}
+/* Starting with styling headings */
+@media (max-width: 1800px) {
+    h1{
+        text-decoration: line-through;
+    }
+}
+h1{
+    color: rgb(152,152,152);
+    background-color: rgba(76,81,109,1);
+    height: 1.1em;
+    width: 400px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    position: fixed;
+    text-align: center;
+    font-family: "CustomFont";
+    font-size: medium;
+}
+#top_fixed_title{
+    margin-left: 700px;
+}
+#brainstorm{
+    max-height: 5cm;
+    max-width: 50ex;
+    position: sticky;
+}
+h2{
+    color: #989;
+    background-color: #4c516d;
+}
+h3{
+    color: hsl(0, 0%, 75%);
+    background-color: hsla(261, 92%, 51%,1);
+    margin: auto;
+}
+h4{
+    color: purple;
+    margin: 10px 5px 10px 5px;
+}
+.top_header{
+    border-width: 0.2vw;
+    border-radius: 1in;
+    border-color: silver;
+    border-style: ridge;
+}
+/* Text Entry Box */
+#text_entry{
+    margin-left: 2em;
+    margin-right: 1em;
+    display: inline;
+}
+*{
+    padding: 2px 3px 2px 3px;
+}
+[href="https://google.com"]{
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+}
+p,li{
+    color: black;
+    text-decoration:double;
+    text-align: left;
+}
+li{
+    display: inline-block;
+}
+button:hover{
+    color: red;
+}
+button:active{
+    color: blue;
+}
+#list1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+#list2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    justify-self: baseline;
+    align-self: stretch;
+}
+section img{
+    width: 500px;
+}
+footer > h3{
+    color: chocolate;
+}
+nav ~ span{
+    color: goldenrod;
+}
+input + p{
+    text-decoration: underline;
+}
+span.End{
+    font-family: "CustomFont";
+}
