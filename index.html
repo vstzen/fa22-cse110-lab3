@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="index.css">
     <title>Team Meeting Minutes</title>
     <meta name="description" content="Meeting minutes for example team meeting">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        a {color:green;}
+    </style>
   </head>
   <body>
-    <header>
+    <div id = "top_fixed_title">
         <h1>Team Meeting Minutes</h1>
-        <h2>Brainstorming Meeting</h2>
-        <h3>Date: October 5th, 2022</h3>
+    </div>
+    <header>
+        <h2 id = "brainstorm" class = "top_header">Brainstorming Meeting</h2>
+        <h3 class = "top_header">Date: October 5th, 2022</h3>
     </header>
     <main>
         <hr>
@@ -40,13 +46,13 @@
         </div>
         <div>
             <p>People who could not attend:</p>
-            <textarea>
+            <textarea id = "text_entry">
                 Person 11, Person 12
             </textarea>
         </div>
         </section>
         <br>
-        <section>
+        <section id = "list1">
             <h3>Agenda</h3>
             <ol>
                 <li>Finish <strong>Design Review</strong></li>
@@ -54,7 +60,7 @@
                 <li>New Hires: <em>Person13</em> and <em>Person14</em></li>
             </ol>
         </section>
-        <section>
+        <section id = "list2">
             <h3>Design Doc</h3>
             <img src="DesignDoc.png" alt="Design Doc">
             <details>
@@ -104,11 +110,11 @@
             </fieldset>
         </form>
         <nav>
-            <a href="https://google.com">google</a>
+            <a style="color:red;" href="https://google.com">google</a>
             <a href="https://google.com">google</a>
             <a href="https://google.com">google</a>
         </nav>
-        <span>The End</span>
+        <span class = "End">The End</span>
     </footer>
   </body>
 </html>
